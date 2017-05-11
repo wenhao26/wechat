@@ -8,7 +8,7 @@
  * @version 1.0
  */
 
-class BaseHelper 
+class BaseHelper
 {
     const API_URL_PREFIX = 'https://api.weixin.qq.com/cgi-bin'; 
     const API_ACCESS_TOKEN = '/token?grant_type=client_credential&appid=%s&secret=%s';
@@ -19,7 +19,7 @@ class BaseHelper
     
     private $options;
     private $appid;
-    private $appsecret;  
+    private $appsecret; 
     
     public function __construct($options)
     {
