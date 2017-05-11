@@ -4,7 +4,7 @@
  *
  * 微信公众平台基础帮助操作类库文件（封装核心的公共方法，涉及参数，需要自行处理，本文件仅提供核心操作代码）
  *
- * @author $wuwh 2017-05-03 14:09
+ * @author $wuwh 2017-05-11 10:05 
  * @version 1.0
  */
 
@@ -19,7 +19,7 @@ class BaseHelper
     
     private $options;
     private $appid;
-    private $appsecret;
+    private $appsecret; 
     
     public function __construct($options)
     {
@@ -237,23 +237,3 @@ class BaseHelper
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
